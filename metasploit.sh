@@ -39,7 +39,7 @@ if [ -e $PATH/bin/msfvenom ];then
 	rm $PATH/bin/msfvenom
 fi
 
-if
+
 echo "Load database"
 
 cd $msfpath/metasploit-framework/config
@@ -53,5 +53,5 @@ createuser msf
 createdb msf_database
 
 rm $msfpath/$msfvar.tar.gz
-fi
+
 echo "Author[Darkside@InYourHeart]"
